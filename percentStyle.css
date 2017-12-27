@@ -1,0 +1,50 @@
+﻿body{
+	direction:rtl;
+	padding:0;
+	margin:0;
+	overflow-x:hidden;
+	font:14px / 2.1em BZar,Tahoma,arial;
+	background:#ddd url(pixel.png)repeat;
+}
+.percentStyle{
+	border-width: 3px 8px 3px 3px;
+	border-style: solid;
+	border-color: #9b59b6;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	padding: 5px;
+	width: 500px;
+	background: #8e44ad;
+	margin: 10px auto;
+	text-align: center;
+}
+.table {
+	background:#8e44ad;
+	margin-top:7px;
+	border-left:1px dotted #CCC;
+	border-bottom:1px dotted #CCC;
+}
+
+.table tr td {
+	text-align:center;
+	padding:5px 0 10px;
+	border-top:1px dotted #CCC;
+	border-right:1px dotted #CCC;
+}
+
+.table tr.title td {
+	font-size:12px;
+	color:#498caf;
+}
+
+.table tr td.price {
+	color:#C60;
+}
+@media screen and (max-width:500px){
+	.percentStyle{width:98%}
+	.table{width:98%}
+}
+Input[type=number]{width=15}

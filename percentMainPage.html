@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>percent calculator</title>
+    <link href="percentStyle.css" rel="stylesheet"/>
+    <script src="percent.js"></script>
+</head>
+<body>
+        <div class="percentStyle">
+            <form>
+                <table width="500" border="0" cellpadding="0" cellspacing="0" class="table">
+                    <tr class="title">
+                        <td width="30"><input id="Right" type="text" value=""></td>
+                        <td width="30"><span style="color: #ecf0f1;">Right answer</span></td>
+                    </tr>
+                    <tr class="title">
+                        <td width="30"><input id="Wrong" type="text" value=""></td>
+                        <td width="30"><span style="color: #ecf0f1;">Wrong answer</span></td>
+                    </tr>
+                    <tr class="title">
+                        <td width="30"><input id="dna" type="text" value=""></td>
+                        <td width="30"><span style="color: #ecf0f1;">Did Not answer</span></td>
+                    </tr>
+                    <tr class="title">
+                        <td width="30"><input disabled="true" id="percent" type="text" value=""></td>
+                        <td width="30"><span style="color: #ecf0f1;">your percent</span></td>
+                    </tr>
+                    <tr class="title">
+                        <td width="30"><input disabled="true" id="percentW" type="text" value=""></td>
+                        <td width="30"><span style="color: #ecf0f1;">your percent without negative Score</span></td>
+                    </tr>
+                </table>
+                 <input value="calculat" type="button" onclick="percentCalculator()">
+            </form>
+        </div>
+</body>
+</html>
